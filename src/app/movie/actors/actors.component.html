@@ -1,0 +1,19 @@
+<div *ngIf="actors && actors.length > 0">
+
+  <table class="mat-table ">
+    <thead>
+    <tr>
+      <td>Name</td>
+      <td>Date of Birth</td>
+      <td>Character</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let actor of actors">
+      <td>{{actor.name}}</td>
+      <td>{{actor.dob}}</td>
+      <td>{{actor.character}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,18 @@
+<div *ngIf="theaters && theaters.length > 0">
+  <table class="mat-table ">
+    <thead>
+    <tr>
+      <td>Name</td>
+      <td>Number</td>
+      <td>Address</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let theater of theaters">
+      <td>{{theater.name}}</td>
+      <td>{{theater.phoneNumber}}</td>
+      <td>{{theater.address}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
