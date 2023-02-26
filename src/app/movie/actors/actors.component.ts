@@ -1,10 +1,10 @@
-import {Component, OnInit} from '@angular/core';
-import {ChildRouterComponent} from '../movie.component';
+import { Component, OnInit } from '@angular/core';
+import { ChildRouterComponent } from '../movie.component';
 
 @Component({
   selector: 'app-actors',
   templateUrl: './actors.component.html',
-  styleUrls: ['./actors.component.css']
+  styleUrls: ['./actors.component.scss']
 })
 export class ActorsComponent implements OnInit, ChildRouterComponent {
   id = 0;
@@ -26,3 +26,4 @@ export class ActorsComponent implements OnInit, ChildRouterComponent {
     this.ngOnInit();
   }
 }
+

@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import {ChildRouterComponent} from '../movie.component';
-import {MovieService} from '../movie.service';
+import { ChildRouterComponent } from '../movie.component';
+import { MovieService } from '../movie.service';
 
 @Component({
   selector: 'app-theaters',
   templateUrl: './theaters.component.html',
-  styleUrls: ['./theaters.component.css']
+  styleUrls: ['./theaters.component.scss']
 })
-export class TheatersComponent implements OnInit, ChildRouterComponent {
+export class TheatersComponent implements OnInit, ChildRouterComponent  {
   id = -1;
   movie: any;
   theaters: any[] | undefined;

@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import {ChildRouterComponent} from '../movie.component';
+import { ChildRouterComponent } from '../movie.component';
 
 @Component({
   selector: 'app-details',
   templateUrl: './details.component.html',
-  styleUrls: ['./details.component.css']
+  styleUrls: ['./details.component.scss']
 })
-export class DetailsComponent implements OnInit, ChildRouterComponent {
+export class DetailsComponent implements OnInit, ChildRouterComponent  {
   id = 0;
   movie: any;
 

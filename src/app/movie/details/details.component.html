@@ -1,14 +1,15 @@
 <div *ngIf="movie">
-  <div class="details">
-    <label for="duration">Duration:</label>
-    <span class="data" id="duration">{{movie.duration}}</span>
+    <div class="details">
+      <label for="duration">Duration:</label>
+      <span class="data" id="duration">{{movie.duration}}</span>
+    </div>
+    <div class="details">
+      <label for="director">Director:</label>
+      <span id="director">{{movie.director}}</span>
+    </div>
+    <div class="details">
+      <label for="releaseDate">Release Date:</label>
+      <span id="releaseDate">{{movie.releaseDate}}</span>
+    </div>
   </div>
-  <div class="details">
-    <label for="director">Director:</label>
-    <span id="director">{{movie.director}}</span>
-  </div>
-  <div class="details">
-    <label for="releaseDate">Release Date:</label>
-    <span id="releaseDate">{{movie.releaseDate}}</span>
-  </div>
-</div>
+  

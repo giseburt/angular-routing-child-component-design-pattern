@@ -1,14 +1,14 @@
-import {Component, OnInit} from '@angular/core';
-import {MovieService} from './movie.service';
-import {ActivatedRoute, Router} from '@angular/router';
-
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+import { MovieService } from './movie.service';
 
 @Component({
   selector: 'app-movie',
   templateUrl: './movie.component.html',
-  styleUrls: ['./movie.component.css']
+  styleUrls: ['./movie.component.scss']
 })
 export class MovieComponent implements OnInit {
+
   movie: any;
   movieId = 1;
   navLinks: any[];
@@ -64,3 +64,4 @@ export interface ChildRouterComponent {
 
   updateData(): void;
 }
+
