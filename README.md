@@ -1,5 +1,8 @@
 # AngularRoutingChildComponentDesignPattern
 
+This repo is the example repo for the Blog article that can be found at
+https://tenmilesquare.com/resources/software-development/angular-routing-…king-child-state/
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.5.
 
 ## Development server
